@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module3-Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <header>
+        <!-- thanh điều hướng được tạo bằng  class="navbar navbar-default" trong boostrap -->
+        <nav id="header-nav" class="navbar navbar-default">  
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Food,LLC</a>
+                    <!-- đoạn để tạo nav button trong boostrap -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-food" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> <!-- end nav-header  -->
+
+                <!-- tạo các liên kết khi màn hình nhỏ lại trong button, đặt id để phù hợp với data-target trên -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-food">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">  
+                        <li class="text-center"><a href="#chicken">Chicken</a></li>
+                        <li class="text-center"><a href="#beef">Beef</a></li>
+                        <li class="text-center"><a href="#shushi">Shushi</a></li>
+                    </ul>
+                </div>
+            </div> <!--  end .container-fluid      -->
+        </nav>
+        <h1 class="text-center">Our Menu</h1>
+    </header>
+    <section id="top"></section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <section id="chicken">
+                <h2 class="text-center">Chicken</h2>
+                <p>Create a single really tall section that will use the Bootstrap Grid 
+                    and take up the entire width of the browser window (minus some margins,
+                    of course) for all views: desktop, tablet, and mobile. To make the section
+                    really tall, you can either fill it out with a LOT of text or simply set its
+                    height to something like 1000px. It needs to be tall enough to cause 
+                    scrolling down to be required to view the bottom of the section.
+                    Make sure its background color is set to distinguish it from the 
+                    rest of the content. (Hint: don't forget to have an element with a 
+                    class='container' or class='container-fluid' wrapping your grid.
+                    Remember that to have the grid do something "always", i.e., no matter
+                    what browser window size, use the col-xs-... classes. In this case,
+                    since we want the section to take up the entire row, use col-xs-12.)
+                    height to something like 1000px. It needs to be tall enough to cause 
+                    scrolling down to be required to view the bottom of the section.
+                    Make sure its background color is set to distinguish it from the 
+                    rest of the content. (Hint: don't forget to have an element with a 
+                    class='container' or class='container-fluid' wrapping your grid.
+                    Remember that to have the grid do something "always", i.e., no matter
+                    what browser window size, use the col-xs-... classes. In this case,
+                    since we want the section to take up the entire row, use col-xs-12.)
+                </p>
+                </section>
+            </div>
+
+           <div class="col-md-4 col-sm-6 col-xs-12 ">
+                <section id="beef">
+                <h2 class="text-center">Beef</h2>
+                <p>Create a single really tall section that will use the Bootstrap Grid 
+                    and take up the entire width of the browser window (minus some margins,
+                    of course) for all views: desktop, tablet, and mobile. To make the section
+                    really tall, you can either fill it out with a LOT of text or simply set its
+                    height to something like 1000px. It needs to be tall enough to cause 
+                    scrolling down to be required to view the bottom of the section.
+                    Make sure its background color is set to distinguish it from the 
+                    rest of the content. (Hint: don't forget to have an element with a 
+                    class='container' or class='container-fluid' wrapping your grid.
+                    Remember that to have the grid do something "always", i.e., no matter
+                    what browser window size, use the col-xs-... classes. In this case,
+                    since we want the section to take up the entire row, use col-xs-12.)
+                    height to something like 1000px. It needs to be tall enough to cause 
+                    scrolling down to be required to view the bottom of the section.
+                    Make sure its background color is set to distinguish it from the 
+                    rest of the content. (Hint: don't forget to have an element with a 
+                    class='container' or class='container-fluid' wrapping your grid.
+                    Remember that to have the grid do something "always", i.e., no matter
+                    what browser window size, use the col-xs-... classes. In this case,
+                    since we want the section to take up the entire row, use col-xs-12.)
+                </p>
+               </section>
+               <a href="#top">Back the top</a>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <section id="shushi">
+                    <h2 class="text-center">Shushi</h2>
+                    <p>Create a single really tall section that will use the Bootstrap Grid 
+                        and take up the entire width of the browser window (minus some margins,
+                        of course) for all views: desktop, tablet, and mobile. To make the section
+                        really tall, you can either fill it out with a LOT of text or simply set its
+                        height to something like 1000px. It needs to be tall enough to cause 
+                        scrolling down to be required to view the bottom of the section.
+                        Make sure its background color is set to distinguish it from the 
+                        rest of the content. (Hint: don't forget to have an element with a 
+                        class='container' or class='container-fluid' wrapping your grid.
+                        Remember that to have the grid do something "always", i.e., no matter
+                        what browser window size, use the col-xs-... classes. In this case,
+                        since we want the section to take up the entire row, use col-xs-12.)
+                        height to something like 1000px. It needs to be tall enough to cause 
+                        scrolling down to be required to view the bottom of the section.
+                        Make sure its background color is set to distinguish it from the 
+                        rest of the content. (Hint: don't forget to have an element with a 
+                        class='container' or class='container-fluid' wrapping your grid.
+                        Remember that to have the grid do something "always", i.e., no matter
+                        what browser window size, use the col-xs-... classes. In this case,
+                        since we want the section to take up the entire row, use col-xs-12.)
+                    </p>
+                </section>
+                </div>
+         </div> <!--  end .row -->
+    </div><!--  end #container -->
+
+
+    <!-- jQuery of Boostrap 3 -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

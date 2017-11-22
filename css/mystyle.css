@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background: #c2b9b9;
+}
+.navbar-brand{
+    margin: 15px;
+    font-size: 1.6em;
+    line-height: 0.8em;
+    font-weight: bold;
+}
+h1{
+    color: #3883de;
+}
+h2{
+    padding-top: 15px;
+}
+section{
+    background: #c2b9b9;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navbar-collapse-food li{
+    font-size: 1.6em;
+}
+#navbar-collapse-food li:hover{
+    background: #ffffff;
+}
